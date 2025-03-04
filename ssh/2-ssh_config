@@ -1,5 +1,5 @@
-# This SSH client configuration forces the use of the "school" private key and disables password authentication.
-Host *
-    IdentityFile ~/.ssh/school
-    PasswordAuthentication no
-
+Host school
+      HostName 	44.208.163.11
+      User ubuntu
+      IdentifyFile ~/.ssh/school
+      PasswordAuthentication no
